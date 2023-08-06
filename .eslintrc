@@ -1,0 +1,25 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "linebreak-style": ["error", "windows"],
+    "no-var": ["off"],
+    "import/extensions": ["error", { "js": "ignorePackages" }],
+    "prefer-const": ["off"],
+    "react/jsx-wrap-multilines": [
+      "error",
+      { "declaration": false, "assignment": false }
+    ],
+    "import/no-mutable-exports": "off",
+    "prefer-arrow-callback": "off",
+    "react/jsx-no-bind": [
+      "error",
+      {
+        "allowFunctions": true,
+        "allowBind": true
+      }
+    ],
+    "wrap-iife": "off",
+    "no-use-before-define": "off"
+  },
+  "plugins": ["html"]
+}
